@@ -1,0 +1,7 @@
+stages:
+- name: stage1
+  steps:
+  - applyYamlConfig:
+      path: /to-do-app/apple.yaml
+timeout: 60
+notification: {}
